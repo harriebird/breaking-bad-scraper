@@ -1,0 +1,10 @@
+[project]
+name = "breaking-bad-scraper"
+version = "0.1.0"
+description = "Scrapes Breaking Bad episode plots from Wikipedia."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "requests>=2.34.2",
+]
