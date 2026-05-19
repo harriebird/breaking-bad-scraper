@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 WIKIPEDIA_ROOT = "https://en.wikipedia.org"
 BREAKING_BAD_EPISODES = "https://en.wikipedia.org/wiki/List_of_Breaking_Bad_episodes"
-HEADERS = {"User-Agent": "BreakingBadScraperBot/0.1.0 (https://github.com/harriebird/breaking-bad-scraper) breaking-bad-scraper/0.1.0"}
+HEADERS = {"User-Agent": "BreakingBadScraperBot/0.1.0 (breaking-bad-scraper) breaking-bad-scraper/0.1.0"}
 SCRAPE_TIMESTAMP = strftime("%Y%m%d-%H%M%S", localtime())
 
 csv_file = open(f'scrape-{SCRAPE_TIMESTAMP}.csv', 'a')
